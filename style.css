@@ -19,10 +19,10 @@ h {
 	margin-left: auto;
 	margin-right: auto;
 }
-p {
+story p {
     	text-indent: 3em;
-    	word-wrap: normal;
 }
+
 a { 
 	color: #FFFFCC;
 	text-decoration: none;

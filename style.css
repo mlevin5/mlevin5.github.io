@@ -1,10 +1,10 @@
 p {
     	text-indent: 3em;
     	word-wrap: normal;
-    	width: 600px;
 }
 
 story {
+	width: 600px;
 	border-radius: 1em;
         padding: 1em;
         left: 50%;

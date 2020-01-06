@@ -1,12 +1,12 @@
 p {
     text-indent: 3em;
-    line-height: 5 em;
     word-wrap: normal;
     width: 600px;
 }
 
 a { 
 	color: #FFFFCC;
+	line-height: 5 em;
 	text-decoration: none;
 	font-family: "Courier New";
 }

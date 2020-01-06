@@ -81,7 +81,7 @@
 		var story_urls = urls["s"].map( function(x) { return applyFolder("s", x); });
 		var poem_urls = urls["p"].map( function(x) { return applyFolder("p", x); });
 
-		var all_urls = blurb_urls.concat(story_urls).concat(poem_urls);
+		var all_urls = story_urls.concat(poem_urls);
 		
 		document.getElementById("random").setAttribute("href", getRandomElement(all_urls));
 		document.getElementById("random-story").setAttribute("href", getRandomElement(story_urls));

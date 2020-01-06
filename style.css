@@ -20,8 +20,19 @@ story p {
     	text-indent: 3em;
 }
 
-a { 
-	color: #FFFFCC;
+a, rainbow, light { 
 	text-decoration: none;
 	font-family: "Courier New";
 }
+a {
+	color: #FFFFCC;
+}
+rainbow {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+	-webkit-background-clip: text;
+  	color: transparent;
+}
+light {
+	color: #FFFFF0;
+}
+

@@ -9,6 +9,7 @@ story {
         padding: 1em;
         left: 50%;
         margin-right: -50%;
+	position: absolute;
 }
 
 a { 

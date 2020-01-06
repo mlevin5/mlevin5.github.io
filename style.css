@@ -4,3 +4,9 @@ p {
     word-wrap: break-word;
     width: 100px;
 }
+
+a1 { 
+	color: #FFFFCC;
+	text-decoration: none;
+	font-family: "Courier New";
+}

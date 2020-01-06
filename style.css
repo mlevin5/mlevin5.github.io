@@ -25,7 +25,10 @@ a, rainbow, light {
 	font-family: "Courier New";
 }
 a {
-	color: #FFFFCC;
+	color: #FFFFF3;
+}
+rainbow, light {
+	font-weight: bold;
 }
 rainbow {
 	background-image: linear-gradient(to left, #bae1ff, #baffc9, #ffffba, #ffdfba, #ffb3ba);   
@@ -33,6 +36,6 @@ rainbow {
   	color: transparent;
 }
 light {
-	color: #FFFFF3;
+	color: #FFFFCC;
 }
 

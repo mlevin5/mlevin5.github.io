@@ -1,14 +1,15 @@
 p {
     	text-indent: 3em;
     	word-wrap: normal;
-	display: inline-block;
 }
 
 story {
 	width: 600px;
 	border-radius: 1em;
         padding: 1em;
-	text-align: center;
+	display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 a { 

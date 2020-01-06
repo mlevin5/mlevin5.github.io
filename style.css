@@ -1,8 +1,3 @@
-p {
-    	text-indent: 3em;
-    	word-wrap: normal;
-}
-
 story, blurb, poem {
 	border-radius: 1em;
         padding: 1em;
@@ -16,7 +11,17 @@ story {
 poem, blurb { 
 	width: 300px;
 }
-
+h {
+	display: block;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+}
+p {
+    	text-indent: 3em;
+    	word-wrap: normal;
+}
 a { 
 	color: #FFFFCC;
 	text-decoration: none;

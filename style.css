@@ -4,6 +4,7 @@ story, blurb, poem {
 	display: block;
         margin-left: auto;
         margin-right: auto;
+	white-space: pre-line;
 }
 story {
 	width: 700px;
@@ -16,6 +17,7 @@ h {
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 }
+
 story p {
     	text-indent: 3em;
 }

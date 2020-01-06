@@ -4,12 +4,17 @@ p {
 }
 
 story, blurb, poem {
-	width: 700px;
 	border-radius: 1em;
         padding: 1em;
 	display: block;
         margin-left: auto;
         margin-right: auto;
+}
+story {
+	width: 700px;
+}
+poem, blurb { 
+	width: 300px;
 }
 
 a { 

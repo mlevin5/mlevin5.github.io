@@ -13,11 +13,8 @@ poem, blurb {
 	width: 300px;
 }
 h {
-	display: block;
 	margin-top: 1em;
 	margin-bottom: 0.5em;
-	margin-left: auto;
-	margin-right: auto;
 }
 story p {
     	text-indent: 3em;

@@ -3,7 +3,7 @@ p {
     	word-wrap: normal;
 }
 
-story {
+story, blurb, poem {
 	width: 600px;
 	border-radius: 1em;
         padding: 1em;

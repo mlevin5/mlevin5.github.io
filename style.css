@@ -11,7 +11,7 @@ story {
 poem, blurb { 
 	width: 300px;
 }
-h {
+h1 {
 	display: block;
 	margin-top: 0.67em;
 	margin-bottom: 0.67em;

@@ -17,6 +17,9 @@ h {
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 }
+old {
+	white-space: normal;
+}
 
 story p {
     	text-indent: 3em;

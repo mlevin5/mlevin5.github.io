@@ -6,6 +6,8 @@ story, poem {
         margin-right: auto;
 	white-space: pre-line;
 	font-size: 20px;
+	-moz-tab-size: 4;
+    	tab-size: 4;
 }
 story {
 	width: 700px;

@@ -20,21 +20,19 @@ story p {
     	text-indent: 3em;
 }
 
-a, rainbow, light { 
+a { 
 	text-decoration: none;
 	font-family: "Courier New";
-}
-a {
 	color: #FFFFF3;
 }
 
-rainbow {
+.rainbow {
 	background-image: linear-gradient(to left, #bae1ff, #baffc9, #ffffba, #ffdfba, #ffb3ba);   
 	-webkit-background-clip: text;
   	color: transparent;
 	font-weight: bold;
 }
-light {
+.light {
 	color: #FFFFCC;
 }
 

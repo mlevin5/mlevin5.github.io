@@ -13,10 +13,10 @@ poem, blurb {
 }
 h {
 	display: block;
-	margin-top: 0.67em;
-	margin-bottom: 0.67em;
-	margin-left: 0;
-	margin-right: 0;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 p {
     	text-indent: 3em;

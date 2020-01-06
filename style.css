@@ -9,6 +9,7 @@ story {
 	width: 700px;
 }
 poem, blurb { 
+	text-indent: 0em;
 	width: 300px;
 }
 h {

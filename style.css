@@ -4,9 +4,8 @@ story, poem {
 	display: block;
         margin-left: auto;
         margin-right: auto;
-	white-space: pre-line;
+	white-space: pre-wrap;
 	font-size: 20px;
-	-moz-tab-size: 4;
     	tab-size: 4;
 }
 story {

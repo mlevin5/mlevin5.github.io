@@ -28,7 +28,7 @@ a {
 	color: #FFFFCC;
 }
 rainbow {
-	background-image: linear-gradient(to left, #bae1ff, #baffc9, #fffba, #ffdfba, #ffb3ba);   
+	background-image: linear-gradient(to left, #bae1ff, #baffc9, #ffffba, #ffdfba, #ffb3ba);   
 	-webkit-background-clip: text;
   	color: transparent;
 }

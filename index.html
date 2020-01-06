@@ -10,15 +10,20 @@
 			<a id="random">random</a>
 			<br>
 			<br>
-			<a href="lopped-out.html">lopped out</a>
+			<a id="random-blurb">blurbs</a>
 			<br>
-			<a href="our-muffled-voice.html">our muffled voice, our violent rage</a>
 			<br>
 			<a href="a-flamingo.html">a flamingo</a>
 			<br>
-			<a href="than-before.html">than before</a>
+			<a href="sonder.html">sonder</a>
 			<br>
-      			<a href="sonder.html">sonder</a>
+			<a href="the-ubermensch.html">the übermensch</a>
+			<br>
+			<br>
+			<a id="random-poem">poems</a>
+			<br>
+			<br>
+			<a href="than-before.html">than before</a>
 			<br>
       			<a href="petty-problems.html">petty problems & pity parties</a>
 			<br>
@@ -30,28 +35,48 @@
 			<br>
       			<a href="monotonous-downpour.html">monotonous downpour</a>
 			<br>
-     			 <a href="the-ubermensch.html">the übermensch</a>
-			<br>
       			<a href="incident-guidance.html">incident guidance</a>
 			<br>
+			<br>
+			<a id="random-story">stories</a>
+			<br>
+			<br>
+			<a href="lopped-out.html">lopped out</a>
+			<br>
+			<a href="our-muffled-voice.html">our muffled voice, our violent rage</a>
 		</p>
 	</center>
 	<script>
-		var urls = ["lopped-out.html",
-				"our-muffled-voice.html",
-				"a-flamingo.html",
-				"than-before.html",
+		function getRandomElement(l) {
+  			return l[Math.floor(Math.random() * l.length)];          
+		}
+		function applyFolder(folder_name, file_name) {
+			return folder_name + "/" + file_name;
+		}
+		var urls = { 
+			"b": ["a-flamingo.html",
           			"sonder.html",
+          			"the-ubermensch.html"],
+			"s": ["lopped-out.html",
+				"our-muffled-voice.html"],
+			"p": ["than-before.html",
           			"petty-problems.html",
           			"involuntary.html",
           			"tabulae-resiliunt.html",
           			"dark-side.html",
           			"monotonous-downpour.html",
-          			"the-ubermensch.html",
-      				"incident-guidance.html"];
-		var random_url = urls[Math.floor(Math.random() * urls.length)];
-		var random_node = document.getElementById("random");
-		random_node.setAttribute("href",random_url);
+      				"incident-guidance.html"]
+		};
+		var blurb_urls = urls["b"].map( function(x) { return applyFolder("b", x); });
+		var story_urls = urls["s"].map( function(x) { return applyFolder("s", x); });
+		var poem_urls = urls["p"].map( function(x) { return applyFolder("p", x); });
+
+		var all_urls = blurb_urls.concat(story_urls).concat(poem_urls);
+		
+		document.getElementById("random").setAttribute("href", getRandomElement(all_urls));
+		document.getElementById("random-blurb").setAttribute("href", getRandomElement(blurb_urls));
+		document.getElementById("random-story").setAttribute("href", getRandomElement(story_urls));
+		document.getElementById("random-poem").setAttribute("href", getRandomElement(poem_urls));
 	</script>
 </body>
 </html>	

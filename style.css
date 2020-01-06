@@ -2,11 +2,14 @@ p {
     	text-indent: 3em;
     	word-wrap: normal;
     	width: 600px;
-	
+}
+
+story {
 	border-radius: 1em;
         padding: 1em;
         left: 50%;
         margin-right: -50%;
+	transform: translate(-50%, -50%) 
 }
 
 a { 

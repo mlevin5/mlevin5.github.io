@@ -28,11 +28,11 @@ a {
 	color: #FFFFCC;
 }
 rainbow {
-	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+	background-image: linear-gradient(to left, #bae1ff, #baffc9, #fffba, #ffdfba, #ffb3ba);   
 	-webkit-background-clip: text;
   	color: transparent;
 }
 light {
-	color: #FFFFF0;
+	color: #FFFFF3;
 }
 

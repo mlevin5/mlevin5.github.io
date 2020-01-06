@@ -7,8 +7,8 @@ story {
 	width: 600px;
 	border-radius: 1em;
         padding: 1em;
-        left: 50%;
-        margin-right: -50%;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 a { 

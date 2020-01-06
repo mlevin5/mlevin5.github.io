@@ -1,15 +1,19 @@
-story, blurb, poem {
+story, poem {
 	border-radius: 1em;
         padding: 1em;
 	display: block;
         margin-left: auto;
         margin-right: auto;
 	white-space: pre-line;
+	font-size: 14px;
 }
 story {
 	width: 700px;
 }
-poem, blurb { 
+story p {
+    	text-indent: 3em;
+}
+poem { 
 	text-indent: 0em;
 	width: 300px;
 }
@@ -17,20 +21,11 @@ h {
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 }
-.old {
-	white-space: normal;
-}
-
-story p {
-    	text-indent: 3em;
-}
-
 a { 
 	text-decoration: none;
 	font-family: "Courier New";
 	color: #FFFFF3;
 }
-
 .rainbow {
 	background-image: linear-gradient(to left, #bae1ff, #baffc9, #ffffba, #ffdfba, #ffb3ba);   
 	-webkit-background-clip: text;
@@ -39,5 +34,8 @@ a {
 }
 .light {
 	color: #FFFFCC;
+}
+.old {
+	white-space: normal;
 }
 
